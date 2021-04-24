@@ -1,0 +1,9 @@
+#include <stdio.h>
+
+int main(void)
+{
+	printf("please enter a positive integer:");
+	fflush(stdin);
+	fflush(stdout);
+	scanf("%c", &x);
+}

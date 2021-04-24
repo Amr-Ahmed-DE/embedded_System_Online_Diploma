@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main(void)
+   {
+	char x;
+	printf("Enter value of a: ");
+	fflush(stdin);
+	fflush(stdout);
+	scanf("%c", &x);
+
+	printf("Enter value of b: ");
+	fflush(stdin);
+	fflush(stdout);
+	scanf("%c", &x);
+	printf("ASCII value of %c = %d", x, x);
+   }

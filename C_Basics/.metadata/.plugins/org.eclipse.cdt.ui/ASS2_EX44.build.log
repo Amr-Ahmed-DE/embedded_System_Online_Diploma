@@ -1,0 +1,8 @@
+10:20:45 **** Incremental Build of configuration Debug for project ASS2_EX44 ****
+Info: Internal Builder is used for build
+gcc -o ASS2_EX44.exe main.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file ASS2_EX44.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+
+10:20:45 Build Finished (took 216ms)
+

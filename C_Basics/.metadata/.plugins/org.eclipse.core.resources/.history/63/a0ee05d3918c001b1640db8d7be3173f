@@ -1,0 +1,28 @@
+#include <stdio.h>
+
+#define ADD +
+#define Sub -
+#define Mul *
+#define div /
+
+int main(void)
+{
+	int x;
+	while(1)
+	{
+		printf("please enter Operation Add, Sub, Mul or div :");
+		fflush(stdin);
+		fflush(stdout);
+		scanf("%c", &x);
+		printf("please enter two Operands = ");
+		fflush(stdin);
+		fflush(stdout);
+		scanf("%f %f", &a, &b);
+
+		Factorial(x);
+	}
+}
+void Calculator(float FirstNumber, float SecondNumber)
+{
+
+}

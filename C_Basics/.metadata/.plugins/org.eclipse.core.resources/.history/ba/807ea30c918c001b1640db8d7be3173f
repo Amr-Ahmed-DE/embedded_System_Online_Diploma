@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+void Factorial(int x);
+int main(void)
+{
+	int x;
+	while(1)
+	{
+		printf("please enter an integer:");
+		fflush(stdin);
+		fflush(stdout);
+		scanf("%d", &x);
+		Factorial(x);
+	}
+}

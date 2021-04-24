@@ -1,0 +1,21 @@
+#include <stdio.h>
+
+int main(void)
+{
+	float x, y, z;
+	printf("Enter three numbers: ");
+	fflush(stdin);
+	fflush(stdout);
+	scanf("%f %f %f", &x, &y, &z);
+
+	if(x > y && x > z)
+	{
+		printf("%f largest number", x);
+	}else if (y > z && y > x)
+	{
+		printf("%f largest number", y);
+	}else if(z > x && z > y)
+	{
+		printf("%f largest number", z);
+	}
+}
