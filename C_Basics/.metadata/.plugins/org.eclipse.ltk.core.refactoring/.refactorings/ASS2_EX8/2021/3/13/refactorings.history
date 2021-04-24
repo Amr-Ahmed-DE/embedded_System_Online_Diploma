@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Rename resource &apos;ASS2_EX8/ex7main.c&apos; to &apos;ex8main.c&apos;" description="Rename resource &apos;ex7main.c&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="ex7main.c" name="ex8main.c" stamp="1616583916144" updateReferences="true"/>
-</session>
